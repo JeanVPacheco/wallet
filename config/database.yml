@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: wallet_development
+  username: postgres
+  password: p@ssw0rd
+  port: 5432
+  host: localhost
+
+test:
+  <<: *default
+  database: wallet_test
+  username: postgres
+  password: p@ssw0rd
+  port: 5432
+  host: localhost
+
+production:
+  <<: *default
+  database: wallet

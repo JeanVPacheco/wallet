@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  entity: one
+  value: 9.99
+  version: 1
+  frequency: MyString
+  day: 1
+
+two:
+  entity: two
+  value: 9.99
+  version: 1
+  frequency: MyString
+  day: 1

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  kind: MyString
+  value: 9.99
+  name: MyString
+  receiver: one
+  note: MyString
+  paid: false
+
+two:
+  user: two
+  kind: MyString
+  value: 9.99
+  name: MyString
+  receiver: two
+  note: MyString
+  paid: false
